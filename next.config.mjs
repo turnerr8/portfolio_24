@@ -1,6 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-};
+    reactStrictMode: true,
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'wikimedia.org',
+                port: '',
+                pathname: '**',
+            },
+        ],
+    },
+}
 
-export default nextConfig;
+export default nextConfig

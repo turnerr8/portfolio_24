@@ -1,0 +1,12 @@
+/* Geist */
+@font-face {
+    font-family: 'Geist';
+    src:
+        url('./Geist/Geist-Regular.otf') format('opentype'),
+        url('./Geist/Geist-Regular.woff2') format('woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Super Peach';
+    src: url('./super_peach/Super\ Peach.ttf') format('truetype');
+}
